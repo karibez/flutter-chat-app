@@ -24,7 +24,7 @@ class RegisterPage extends StatelessWidget {
               children:<Widget>[
                  Logo(titulo: 'Registro'),
                 _Form(),
-                const Labels(ruta:'login', texto1:'¿Ya tienes una cuenta?',texto2:'Ve a registro ahora!!'),
+                const Labels(ruta:'login', texto1:'¿Ya tienes una cuenta?',texto2:'Ingresa ahora!!'),
             
                 const Text('Términos y condiciones de uso', style: TextStyle(fontWeight:FontWeight.w200 )),
               ] 
